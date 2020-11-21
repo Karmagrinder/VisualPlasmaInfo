@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './OpzBuddy.scss';
+import styles from './VisualPlasma.scss';
 import Media from 'react-bootstrap/Media';
 import Card from 'react-bootstrap/Card';
 
-const OpzBuddy = props => (
+const VisualPlasma = props => (
 	<div>
 		<Media>
 			<Media.Body>
@@ -99,19 +99,12 @@ const OpzBuddy = props => (
 	</div>
 );
 
-// todo: Unless you need to use lifecycle methods or local state,
-// write your component in functional form as above and delete
-// this section. 
-// class OpzBuddy extends React.Component {
-//   render() {
-//     return <div>This is a component called OpzBuddy.</div>;
-//   }
-// }
 
-const OpzBuddyPropTypes = {
+
+const VisualPlasmaPropTypes = {
 	// always use prop types!
 };
 
-OpzBuddy.propTypes = OpzBuddyPropTypes;
+VisualPlasma.propTypes = VisualPlasmaPropTypes;
 
-export default OpzBuddy;
+export default VisualPlasma;

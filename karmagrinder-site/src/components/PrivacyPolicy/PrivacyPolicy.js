@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './OpzBuddyPrivacyPolicy.scss';
+import styles from './PrivacyPolicy.scss';
 import Media from 'react-bootstrap/Media';
 import Card from 'react-bootstrap/Card';
 
-const OpzBuddyPrivacyPolicy = props => (
+const PrivacyPolicy = props => (
 	<div className="Privacy-policy">
 		<Media>
 			<Media.Body style={{height:'100vh'}}>
@@ -27,19 +27,12 @@ const OpzBuddyPrivacyPolicy = props => (
 	</div>
 );
 
-// todo: Unless you need to use lifecycle methods or local state,
-// write your component in functional form as above and delete
-// this section. 
-// class OpzBuddyPrivacyPolicy extends React.Component {
-//   render() {
-//     return <div>This is a component called OpzBuddyPrivacyPolicy.</div>;
-//   }
-// }
 
-const OpzBuddyPrivacyPolicyPropTypes = {
+
+const PrivacyPolicyPropTypes = {
 	// always use prop types!
 };
 
-OpzBuddyPrivacyPolicy.propTypes = OpzBuddyPrivacyPolicyPropTypes;
+PrivacyPolicy.propTypes = PrivacyPolicyPropTypes;
 
-export default OpzBuddyPrivacyPolicy;
+export default PrivacyPolicy;
