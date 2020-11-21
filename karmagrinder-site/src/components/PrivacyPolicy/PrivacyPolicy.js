@@ -9,16 +9,15 @@ const PrivacyPolicy = props => (
 		<Media>
 			<Media.Body style={{height:'100vh'}}>
 				<Card bg="dark" text="light">
-					<Card.Title className="title-text"> OP-Z Buddy Privacy Policy </Card.Title>
+					<Card.Title className="title-text"> Privacy Policy </Card.Title>
 					<Card.Body>
 						<Card.Text className="general-text">							
-								OP-Z Buddy app, does not collect or store user's data other than the internal memory of the device on which application is running (i.e user's personal device).
-				
-								App listens to MIDI data received from a specific type of device (OP-Z Synth by Teenage Engineering) and visualizes the parameters.
-				
-								App also requires microphone, camera, and internal/external memory access on user's device, this is to provide audio/video recording and data backup(locally) features.
-    			
-								OP-Z Buddy does not access any other audio device other Teenage Engineering's OP-Z.				
+							VisualPlasma app, does not collect or store user's data. The only data that the app has access to are the images files that the user has explicitly selected to give access to, 
+							and these images are stored in app's local cache/files directory (i.e user's personal device).								
+							App listens to MIDI data received from a device selected by user and generates visuals based  on the input received.								
+							App also requires MIDI, and internal/external memory access on user's device, this is to save the user settings on the local cache folder, 
+							this folder  will be deleted when the app is uninstalled.								
+							App also requires internet access in order to display the help-guide and the app privacy-policy.		
 						</Card.Text>
 					</Card.Body>
 				</Card>				

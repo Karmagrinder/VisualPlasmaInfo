@@ -9,21 +9,30 @@ const VisualPlasma = props => (
 		<Media>
 			<Media.Body>
 				<Card bg="dark" text="light">
-					<Card.Title className="title-text">OP-Z Buddy App Help</Card.Title>
+					<Card.Title className="title-text">VisualPlasma App Help</Card.Title>
 					<Card.Body>
 						<Card.Text className="general-text">
-							This app provides display, audio/video recording and data backup functionality for Teenage Engineering OP-Z.
+							This app generates visuals triggered by MIDI signals. In order to use this app, it is required that you make yorself familier with basic concepts of MIDI.
 						</Card.Text>
 					</Card.Body>
 					<Card.Body>
 						<Card bg="dark" text="light">
-							<Card.Title className="title-text" >1. CONNECTING OP-Z TO PHONE</Card.Title>
+							<Card.Title className="title-text" >1. CONNECTING MIDI DEVICE</Card.Title>
+							<Card.Subtitle className="subtitle-text">a) Supported devices:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									You should be able to use any class complaint MIDI device.
+									<br />
+								</Card.Text>
+							</Card.Body>
+
 							<Card.Subtitle className="subtitle-text">a) Via Bluetooth:</Card.Subtitle>
 							<Card.Body>
 								<Card.Text className="general-text">
-									You can use one of the many available Bluetooth-MIDI apps on the Google App store for connecting OP-Z to your phone via bluetooth.
+									If your  MIDI device and your phone both  support MIDI over bluetooh you can connect your MIDI device wirelessly.
+									You can use any of the available Bluetooth-MIDI apps on the google play store and connect your device to the  phone. 
 									<br />
-									Launch the app only after OP-Z is connected to the phone.
+									Launch the app only after your MIDI device is connected to the phone.
 									<br />
 								</Card.Text>
 								
@@ -31,63 +40,119 @@ const VisualPlasma = props => (
 							<Card.Subtitle className="subtitle-text">b) Via USB-Cable:</Card.Subtitle>
 							<Card.Body>
 								<Card.Text className="general-text">
-									Wait for 2-3 seconds after OP-Z has booted up and then connect OP-Z to your phone via USB-OTG adapter.
+									Connect the MIDI device to your phone via USB-OTG adapter.
 									Also ensure that your phone supports USB-OTG functionality.
 								</Card.Text>
 							</Card.Body>								
 						</Card>
 						<Card bg="dark" text="light">
-							<Card.Title className="title-text">2. RECORDER:</Card.Title>
+							<Card.Title className="title-text">2. MAPPINGS:</Card.Title>
 							<Card.Body>
 								<Card.Text className="general-text">
-									To enable audio/video recording functionality you must connect OP-Z via USB-Cable. When the App detects OP-Z as audio device, the recording features will be enabled.
-									Audio is recorded in WAV(stereo) format with 16 BIT and 44.1K hz sampling frequency. 
-									Video is recorded in MPEG4 format and audio is encoded in AAC with same bit depth and sampling frequency as audio-recorder.
+									A mapping is a binding  between a MIDI-note /signal and an action.
+									<br />
+									There are  two types of action a MIDI-note can be binded to, namely a) FX. b) Media.
+									<br />
+									A mapping has following properties:
+									<ul>
+										<li> a) MIDI-note </li>
+										<li> b) MIDI-Channel </li>
+										<li> c) Type (FX or Media)</li>
+										<li> d) FxName / Media resource name</li>
+									</ul>
+									<br />
+									# A combination of a MIDI-note and channel can be associated only to one mapping.									
 								</Card.Text>
 
 							</Card.Body>
-							<Card.Subtitle className="subtitle-text">2.1 Android Q (10) Compatibility:</Card.Subtitle>
+							<Card.Subtitle className="subtitle-text">2.1 Media:</Card.Subtitle>
 							<Card.Body>
 								<Card.Text className="general-text">
-									On Android Q and above, recorded media will  be saved to the SD-Card or internal storage in case the SD-Card is not present.
-									Audio will be saved under Music folder, and videos will be saved under Video folder.
+									When a MIDI-note is mapped to action of type "Media", the visuals will be generated with the associated media file.
 									<br />
-									The audio source mapping is changed in Android Q ( for some reason... thanks for sleepless nights Google), in the previous versions of android the external-mic( OP-Z Audio) was mapped to "MIC".
-									At least on Pixel-2 phones running Android Q the external-mic is mapped to "Voice-Recognition".
+									Currently only Images, and  GIFs are  supported as media types.
 									<br />
-									In android-Q the default audio source will be set to "VOICE_RECOGNITION", in case this results in no audio in your recordings, there is a drop-down menu to switch audio-source.
-									Usually it should be "MIC" or "VOICE_RECOGNITION".
+								</Card.Text>
+							</Card.Body>
+							<Card.Subtitle className="subtitle-text">2.2 FX:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									This action applies the selected image-manipulation effect on to the currently active  media when it's associated MIDI note is triggered. 
+									<br />									
+								</Card.Text>
+							</Card.Body>
+							<Card.Subtitle className="subtitle-text">2.3 Create mapping:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									Follow these steps to create a mapping:
+										<ul>
+										<li>Press a kep/pad to trigger a MIDI note. The triggered note and channel will be displayed.</li>
+										<li>Select type of trigger: FX or Media
+												<ul>
+												<li> Type-Fx: Select  one  of the available FX fromt he dropdown menu.</li>
+												<li> Type-Media: If you click on the Midia button, app will propmt a  file picket. You can then select an image or GIF file.</li>
+											</ul>
+										</li>
+										<li>Press  the add button (+) to save create the mapping.</li>
+										<li>Mapping will be displayed on  the table view.</li>
+									</ul>
+									<br />
+								</Card.Text>
+							</Card.Body>
+							<Card.Subtitle className="subtitle-text">2.4 Save mappings to file:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									If any mappings are available, the "save" button will become active, you can press the save button, and the mappings will be saved to a file.
+									These saved mappings can be later recalled and loaded.
+									<br />
+								</Card.Text>
+							</Card.Body>
+							<Card.Subtitle className="subtitle-text">2.5 Load mappings from file:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									If any mappings file are available, they will be displayed on the top left corner of the screen.
+									You can select any of the previously saved mappings file from the dropdown menu, and  press the "Load" button.
+									The mappings from the file will be displayed on the table view.
+									<br />
+								</Card.Text>
+							</Card.Body>
+							<Card.Subtitle className="subtitle-text">2.6 Edit mapping:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									To edit a mapping, select the mapping in the table-view, the table view is scrollable. 
+									The edit option will be activated on the screen wht the mapping is selected, also the mapping will be highlighted.
+									Use the same procedure as "Create a mapping", and press  the edit button instead of the add (+) button.
+									The selected mapping will be updated with the new changes.
+									<br />
+								</Card.Text>
+							</Card.Body>
+							<Card.Subtitle className="subtitle-text">2.7 Delete mapping:</Card.Subtitle>
+							<Card.Body>
+								<Card.Text className="general-text">
+									When you select the mapping in the mappings-table, the delete-button will become active, you can perform the delete action and the mapping will be removed.
 									<br />
 								</Card.Text>
 							</Card.Body>
 						</Card>
 						<Card bg="dark" text="light">
-							<Card.Title className="title-text">3. DATA BACKUP</Card.Title>
+							<Card.Title className="title-text">3. Start Visuals</Card.Title>
 							<Card.Body>
 								<Card.Text className="general-text">
-									When OP-Z is connected in content disk-mode, app will enable the data-backup feature. Backups of OP-Z data are stored in the device internal memory. 
-									You can create backup via direct folder copy or create a zip-archive.
-								</Card.Text>
-
-							</Card.Body>
-							<Card.Subtitle className="subtitle-text">3.1 Android Q (10) Compatibility:</Card.Subtitle>
-							<Card.Body>
-								<Card.Text className="general-text">
-									On Android Q and above OP-Z data backups will be saved to the "Download" folder.
+									Press on the "Eye" button to start the visuals. Press any of the mapped keys to trigger visuals.
 									<br />
-									Also due to security related limitations enforced by Android Q, the app can no longer gain access to OP-Z disk, therefore user must grant permission manually by selecting the correct OP-Z Disk root.
+									The FX visuals are applied only if there is any media being displayed.
 									<br />
+									FX actions are applied only to still images, and are skipped if a GIF is active. 									
 								</Card.Text>
 							</Card.Body>
 						</Card>
+						
 						<Card bg="dark" text="light">
 							<Card.Title className="title-text">4. Unsupported devices</Card.Title>
 							<Card.Body>
 								<Card.Text className="general-text">
-									Samsung S20: Samsung has done something with how USB-Audio drivers work. Audio and Video recorded with OP-Z Buddy will result in no audio.
-									Rest of the functionality should still work.
+									Samsung S20: Bluetooth MIDI does not work, USB-OTG works.
 									<br />
-									In case the app does not work on your phone, please contact me via mail, I will provide a refund.
 								</Card.Text>
 							</Card.Body>							
 						</Card>
