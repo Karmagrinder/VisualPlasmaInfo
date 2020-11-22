@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './res/Float64Logo.svg';
+import logo from './res/seeTheSound_logo_nobkgnd.svg';
 import './App.css';
 import VisualPlasma from './components/VisualPlasma/VisualPlasma'
-import OpzBuddyPrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 
@@ -23,7 +23,7 @@ function App() {
         <hr />
         <Switch>
           <Route exact path='/'component={VisualPlasma} />
-          <Route path= '/privacypolicy' component={OpzBuddyPrivacyPolicy} />
+          <Route path= '/privacypolicy' component={PrivacyPolicy} />
         </Switch>
       </div>
     </Router>
