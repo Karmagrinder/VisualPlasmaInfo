@@ -29,7 +29,7 @@ const VisualPlasma = props => (
 					<Card.Body>
 						<Card.Text className="general-text">							
 							This app generates visuals triggered by MIDI signals.
-							In order to use this app, it is required that you make yorself familier with basic concepts of MIDI.								
+							In order to use this app, it is required that you make yourself familiar with basic concepts of MIDI.								
 						</Card.Text>
 						<div className="play-store-link">
 							<a href='https://play.google.com/store/apps/details?id=com.e.VisualPlasma&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
@@ -57,7 +57,7 @@ const VisualPlasma = props => (
 							<Card.Subtitle className="subtitle-text">a) Via Bluetooth:</Card.Subtitle>
 							<Card.Body>
 								<Card.Text className="general-text">
-									If your  MIDI device and your phone both  support MIDI over bluetooh you can connect your MIDI device wirelessly.
+									If your  MIDI device and your phone both  support MIDI over bluetooth you can connect your MIDI device wirelessly.
 									You can use any of the available Bluetooth-MIDI apps on the google play store and connect your device to the  phone. 
 									<br />
 									Launch the app only after your MIDI device is connected to the phone.
@@ -121,8 +121,8 @@ const VisualPlasma = props => (
 										<li>Press a kep/pad to trigger a MIDI note. The triggered note and channel will be displayed.</li>
 										<li>Select type of trigger: FX or Media
 												<ul>
-												<li>Type-Fx: Select  one  of the available FX fromt he dropdown menu.</li>
-												<li> Type-Media: If you click on the Midia button, app will propmt a  file picket. You can then select an image or GIF file.</li>
+												<li>Type-Fx: Select  one  of the available FX from the dropdown menu.</li>
+												<li> Type-Media: If you click on the Media button, app will prompt a  file picket. You can then select an image or GIF file.</li>
 											</ul>
 										</li>
 										<li>Press  the add button (+) to save create the mapping.</li>
@@ -202,7 +202,7 @@ const VisualPlasma = props => (
 						</Card>
 
 						<Card bg="dark" text="light">
-							<Card.Title className="title-text">5. Connectiong external screen/projector:</Card.Title>
+							<Card.Title className="title-text">5. Connecting external screen/projector:</Card.Title>
 							<Card.Subtitle className="subtitle-text"> </Card.Subtitle>
 							<Card.Img variant="top" src={ConnectionDiag} />
 							<Card.Body>
