@@ -204,7 +204,7 @@ const VisualPlasma = props => (
 						<Card bg="dark" text="light">
 							<Card.Title className="title-text">5. Connecting external screen/projector:</Card.Title>
 							<Card.Subtitle className="subtitle-text"> </Card.Subtitle>
-							<Card.Text>You can use the wireless-screen mirroring option if your screen/projector or chromecast device supports it.
+							<Card.Text className="general-text">You can use the wireless-screen mirroring option if your screen/projector or chromecast device supports it.
 										<br />
 									 This option can result in slight lag in screen update, it is very much dependent on the wifi speed and signal strength.
 								<br />
