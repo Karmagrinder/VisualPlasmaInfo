@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1f961130bdb91245129d0df5d2259355",
+    "revision": "0250574ddaaeb67e8ddf74ba12d61150",
     "url": "/VisualPlasmaInfo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "5b7572e056b5e0fe81d7",
+    "revision": "71fc47b3c9e57319b962",
     "url": "/VisualPlasmaInfo/static/css/main.8d97616d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js"
   },
   {
-    "revision": "5b7572e056b5e0fe81d7",
-    "url": "/VisualPlasmaInfo/static/js/main.abe4607c.chunk.js"
+    "revision": "71fc47b3c9e57319b962",
+    "url": "/VisualPlasmaInfo/static/js/main.d4d9f9b0.chunk.js"
   },
   {
     "revision": "26f4e88c707fd26003e5",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualPlasmaInfo/static/media/UserGuide2.3df2039a.png"
   },
   {
-    "revision": "ae2bd75db2a36828d8069f5c50ea6fe3",
-    "url": "/VisualPlasmaInfo/static/media/seeTheSound_logo_nobkgnd.ae2bd75d.svg"
+    "revision": "daeeb5b262d211009716db3a5b0b14af",
+    "url": "/VisualPlasmaInfo/static/media/seeTheSound_logo.daeeb5b2.png"
   }
 ]);
