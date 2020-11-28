@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/VisualPlasmaInfo/static/css/main.9ce84d5d.chunk.css",
-    "main.js": "/VisualPlasmaInfo/static/js/main.87691269.chunk.js",
-    "main.js.map": "/VisualPlasmaInfo/static/js/main.87691269.chunk.js.map",
+    "main.css": "/VisualPlasmaInfo/static/css/main.8cfe3b04.chunk.css",
+    "main.js": "/VisualPlasmaInfo/static/js/main.54375dfb.chunk.js",
+    "main.js.map": "/VisualPlasmaInfo/static/js/main.54375dfb.chunk.js.map",
     "runtime-main.js": "/VisualPlasmaInfo/static/js/runtime-main.34db4417.js",
     "runtime-main.js.map": "/VisualPlasmaInfo/static/js/runtime-main.34db4417.js.map",
     "static/css/2.0624914a.chunk.css": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css",
-    "static/js/2.dfad3ce9.chunk.js": "/VisualPlasmaInfo/static/js/2.dfad3ce9.chunk.js",
-    "static/js/2.dfad3ce9.chunk.js.map": "/VisualPlasmaInfo/static/js/2.dfad3ce9.chunk.js.map",
+    "static/js/2.34b2eafe.chunk.js": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js",
+    "static/js/2.34b2eafe.chunk.js.map": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js.map",
     "index.html": "/VisualPlasmaInfo/index.html",
-    "precache-manifest.a8d3f1b95d1639b2872b240e6df27e26.js": "/VisualPlasmaInfo/precache-manifest.a8d3f1b95d1639b2872b240e6df27e26.js",
+    "precache-manifest.c74e57caf5fd79fa9e3f680f785ef648.js": "/VisualPlasmaInfo/precache-manifest.c74e57caf5fd79fa9e3f680f785ef648.js",
     "service-worker.js": "/VisualPlasmaInfo/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.9ce84d5d.chunk.css.map": "/VisualPlasmaInfo/static/css/main.9ce84d5d.chunk.css.map",
+    "static/css/main.8cfe3b04.chunk.css.map": "/VisualPlasmaInfo/static/css/main.8cfe3b04.chunk.css.map",
     "static/media/ConnectionDiag.png": "/VisualPlasmaInfo/static/media/ConnectionDiag.71b95cee.png",
     "static/media/Screenshot.jpg": "/VisualPlasmaInfo/static/media/Screenshot.a04d17e3.jpg",
     "static/media/Screenshot3.jpg": "/VisualPlasmaInfo/static/media/Screenshot3.a5817eaf.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.34db4417.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.dfad3ce9.chunk.js",
-    "static/css/main.9ce84d5d.chunk.css",
-    "static/js/main.87691269.chunk.js"
+    "static/js/2.34b2eafe.chunk.js",
+    "static/css/main.8cfe3b04.chunk.css",
+    "static/js/main.54375dfb.chunk.js"
   ]
 }

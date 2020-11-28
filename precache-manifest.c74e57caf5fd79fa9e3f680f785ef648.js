@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b647f5403c8a3cf68a9b569f8e76272b",
+    "revision": "5ab3dbf7d19f95c1c5c4c968b41313a6",
     "url": "/VisualPlasmaInfo/index.html"
   },
   {
-    "revision": "95dfbb335f3b73488c1a",
+    "revision": "a3bc58837bf3dec6b84e",
     "url": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "296fcb36106bd1da682a",
-    "url": "/VisualPlasmaInfo/static/css/main.9ce84d5d.chunk.css"
+    "revision": "b3cbe6dbac27e8fd0160",
+    "url": "/VisualPlasmaInfo/static/css/main.8cfe3b04.chunk.css"
   },
   {
-    "revision": "95dfbb335f3b73488c1a",
-    "url": "/VisualPlasmaInfo/static/js/2.dfad3ce9.chunk.js"
+    "revision": "a3bc58837bf3dec6b84e",
+    "url": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js"
   },
   {
-    "revision": "296fcb36106bd1da682a",
-    "url": "/VisualPlasmaInfo/static/js/main.87691269.chunk.js"
+    "revision": "b3cbe6dbac27e8fd0160",
+    "url": "/VisualPlasmaInfo/static/js/main.54375dfb.chunk.js"
   },
   {
     "revision": "26f4e88c707fd26003e5",
