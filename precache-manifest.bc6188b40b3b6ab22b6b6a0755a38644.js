@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ab3dbf7d19f95c1c5c4c968b41313a6",
+    "revision": "1f961130bdb91245129d0df5d2259355",
     "url": "/VisualPlasmaInfo/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "b3cbe6dbac27e8fd0160",
-    "url": "/VisualPlasmaInfo/static/css/main.8cfe3b04.chunk.css"
+    "revision": "5b7572e056b5e0fe81d7",
+    "url": "/VisualPlasmaInfo/static/css/main.8d97616d.chunk.css"
   },
   {
     "revision": "a3bc58837bf3dec6b84e",
     "url": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js"
   },
   {
-    "revision": "b3cbe6dbac27e8fd0160",
-    "url": "/VisualPlasmaInfo/static/js/main.54375dfb.chunk.js"
+    "revision": "5b7572e056b5e0fe81d7",
+    "url": "/VisualPlasmaInfo/static/js/main.abe4607c.chunk.js"
   },
   {
     "revision": "26f4e88c707fd26003e5",
