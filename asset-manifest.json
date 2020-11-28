@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VisualPlasmaInfo/static/css/main.8d97616d.chunk.css",
-    "main.js": "/VisualPlasmaInfo/static/js/main.d858c32d.chunk.js",
-    "main.js.map": "/VisualPlasmaInfo/static/js/main.d858c32d.chunk.js.map",
+    "main.js": "/VisualPlasmaInfo/static/js/main.b6891c24.chunk.js",
+    "main.js.map": "/VisualPlasmaInfo/static/js/main.b6891c24.chunk.js.map",
     "runtime-main.js": "/VisualPlasmaInfo/static/js/runtime-main.34db4417.js",
     "runtime-main.js.map": "/VisualPlasmaInfo/static/js/runtime-main.34db4417.js.map",
     "static/css/2.0624914a.chunk.css": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css",
     "static/js/2.34b2eafe.chunk.js": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js",
     "static/js/2.34b2eafe.chunk.js.map": "/VisualPlasmaInfo/static/js/2.34b2eafe.chunk.js.map",
     "index.html": "/VisualPlasmaInfo/index.html",
-    "precache-manifest.589886b6da8915e8a0bedad75db79c33.js": "/VisualPlasmaInfo/precache-manifest.589886b6da8915e8a0bedad75db79c33.js",
+    "precache-manifest.6691a5b3808691d26a8b1109f4dbf8d8.js": "/VisualPlasmaInfo/precache-manifest.6691a5b3808691d26a8b1109f4dbf8d8.js",
     "service-worker.js": "/VisualPlasmaInfo/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/VisualPlasmaInfo/static/css/2.0624914a.chunk.css.map",
     "static/css/main.8d97616d.chunk.css.map": "/VisualPlasmaInfo/static/css/main.8d97616d.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.0624914a.chunk.css",
     "static/js/2.34b2eafe.chunk.js",
     "static/css/main.8d97616d.chunk.css",
-    "static/js/main.d858c32d.chunk.js"
+    "static/js/main.b6891c24.chunk.js"
   ]
 }
