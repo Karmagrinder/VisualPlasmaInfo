@@ -17,7 +17,9 @@ import UserGuide2 from '../../res/UserGuide2.png';
 import ConnectionDiag from '../../res/ConnectionDiag.png';
 
 const demoVideoUrl = "https://www.youtube.com/embed/aMXpVZAsE_M";
+const googlePlayStoreURL = "https://play.google.com/store/apps/details?id=com.e.VisualPlasma";
 
+// 646 x 250
 
 const VisualPlasma = props => (
 	<div>
@@ -30,6 +32,14 @@ const VisualPlasma = props => (
 							This app generates visuals triggered by MIDI signals.
 							In order to use this app, it is required that you make yorself familier with basic concepts of MIDI.								
 						</Card.Text>
+						<div className="play-store-link">
+							<a href='https://play.google.com/store/apps/details?id=com.e.VisualPlasma&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+								<img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
+									width={215}
+									height={80}
+								/>
+							</a>
+						</div>
 						<div >
 							<ResponsiveEmbed src={demoVideoUrl} allowfullscreen />
 						</div>
