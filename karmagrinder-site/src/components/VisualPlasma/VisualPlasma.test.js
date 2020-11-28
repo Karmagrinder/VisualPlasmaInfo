@@ -1,39 +1,39 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
-import OpzBuddy from './OpzBuddy';
+import VisualPlasma from './VisualPlasma';
 
-describe('OpzBuddy', () => {
+describe('VisualPlasma', () => {
   let props;
-  let shallowOpzBuddy;
-  let renderedOpzBuddy;
-  let mountedOpzBuddy;
+  let shallowVisualPlasma;
+  let renderedVisualPlasma;
+  let mountedVisualPlasma;
 
   const shallowTestComponent = () => {
-    if (!shallowOpzBuddy) {
-      shallowOpzBuddy = shallow(<OpzBuddy {...props} />);
+    if (!shallowVisualPlasma) {
+      shallowVisualPlasma = shallow(<VisualPlasma {...props} />);
     }
-    return shallowOpzBuddy;
+    return shallowVisualPlasma;
   };
 
   const renderTestComponent = () => {
-    if (!renderedOpzBuddy) {
-      renderedOpzBuddy = render(<OpzBuddy {...props} />);
+    if (!renderedVisualPlasma) {
+      renderedVisualPlasma = render(<VisualPlasma {...props} />);
     }
-    return renderedOpzBuddy;
+    return renderedVisualPlasma;
   };
 
   const mountTestComponent = () => {
-    if (!mountedOpzBuddy) {
-      mountedOpzBuddy = mount(<OpzBuddy {...props} />);
+    if (!mountedVisualPlasma) {
+      mountedVisualPlasma = mount(<VisualPlasma {...props} />);
     }
-    return mountedOpzBuddy;
+    return mountedVisualPlasma;
   };  
 
   beforeEach(() => {
     props = {};
-    shallowOpzBuddy = undefined;
-    renderedOpzBuddy = undefined;
-    mountedOpzBuddy = undefined;
+    shallowVisualPlasma = undefined;
+    renderedVisualPlasma = undefined;
+    mountedVisualPlasma = undefined;
   });
 
   // Shallow / unit tests begin here

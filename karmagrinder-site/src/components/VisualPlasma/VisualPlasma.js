@@ -17,7 +17,6 @@ import UserGuide2 from '../../res/UserGuide2.png';
 import ConnectionDiag from '../../res/ConnectionDiag.png';
 
 const demoVideoUrl = "https://www.youtube.com/embed/aMXpVZAsE_M";
-const googlePlayStoreURL = "https://play.google.com/store/apps/details?id=com.e.VisualPlasma";
 
 // 646 x 250
 

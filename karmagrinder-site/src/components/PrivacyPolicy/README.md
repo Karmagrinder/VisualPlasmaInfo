@@ -1,15 +1,15 @@
-# OpzBuddyPrivacyPolicy
+# PrivacyPolicy
 
 <!-- STORY -->
 
 ## Introduction
 
-OpzBuddyPrivacyPolicy is an easy-to-use component.
+PrivacyPolicy is an easy-to-use component.
 
 ## Usage
 
 ```javascript
-import { OpzBuddyPrivacyPolicy } from 'some-package-name';
+import { PrivacyPolicy } from 'some-package-name';
 ```
 
 ## Example use
@@ -18,7 +18,7 @@ import { OpzBuddyPrivacyPolicy } from 'some-package-name';
 const myPage = props => {
   return (
     <main>
-      <OpzBuddyPrivacyPolicy />
+      <PrivacyPolicy />
     </main>
   );
 };

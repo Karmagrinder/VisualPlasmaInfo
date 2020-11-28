@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './res/seeTheSound_logo_nobkgnd.svg';
+import logo from './res/seeTheSound_logo.png';
 import './App.css';
 import VisualPlasma from './components/VisualPlasma/VisualPlasma'
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'

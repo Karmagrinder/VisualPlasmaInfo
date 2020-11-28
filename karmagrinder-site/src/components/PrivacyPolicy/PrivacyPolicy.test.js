@@ -1,39 +1,39 @@
 import React from 'react';
 import { shallow, render, mount } from 'enzyme';
-import OpzBuddyPrivacyPolicy from './OpzBuddyPrivacyPolicy';
+import PrivacyPolicy from './PrivacyPolicy';
 
-describe('OpzBuddyPrivacyPolicy', () => {
+describe('PrivacyPolicy', () => {
   let props;
-  let shallowOpzBuddyPrivacyPolicy;
-  let renderedOpzBuddyPrivacyPolicy;
-  let mountedOpzBuddyPrivacyPolicy;
+  let shallowPrivacyPolicy;
+  let renderedPrivacyPolicy;
+  let mountedPrivacyPolicy;
 
   const shallowTestComponent = () => {
-    if (!shallowOpzBuddyPrivacyPolicy) {
-      shallowOpzBuddyPrivacyPolicy = shallow(<OpzBuddyPrivacyPolicy {...props} />);
+    if (!shallowPrivacyPolicy) {
+      shallowPrivacyPolicy = shallow(<PrivacyPolicy {...props} />);
     }
-    return shallowOpzBuddyPrivacyPolicy;
+    return shallowPrivacyPolicy;
   };
 
   const renderTestComponent = () => {
-    if (!renderedOpzBuddyPrivacyPolicy) {
-      renderedOpzBuddyPrivacyPolicy = render(<OpzBuddyPrivacyPolicy {...props} />);
+    if (!renderedPrivacyPolicy) {
+      renderedPrivacyPolicy = render(<PrivacyPolicy {...props} />);
     }
-    return renderedOpzBuddyPrivacyPolicy;
+    return renderedPrivacyPolicy;
   };
 
   const mountTestComponent = () => {
-    if (!mountedOpzBuddyPrivacyPolicy) {
-      mountedOpzBuddyPrivacyPolicy = mount(<OpzBuddyPrivacyPolicy {...props} />);
+    if (!mountedPrivacyPolicy) {
+      mountedPrivacyPolicy = mount(<PrivacyPolicy {...props} />);
     }
-    return mountedOpzBuddyPrivacyPolicy;
+    return mountedPrivacyPolicy;
   };  
 
   beforeEach(() => {
     props = {};
-    shallowOpzBuddyPrivacyPolicy = undefined;
-    renderedOpzBuddyPrivacyPolicy = undefined;
-    mountedOpzBuddyPrivacyPolicy = undefined;
+    shallowPrivacyPolicy = undefined;
+    renderedPrivacyPolicy = undefined;
+    mountedPrivacyPolicy = undefined;
   });
 
   // Shallow / unit tests begin here
