@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './VisualPlasma.scss';
 import Media from 'react-bootstrap/Media';
 import Card from 'react-bootstrap/Card';
+import ResponsiveEmbed from 'react-responsive-embed';
 
 // Image  imports
 import Screenshot from '../../res/Screenshot.jpg';
@@ -15,6 +16,9 @@ import UserGuide1 from '../../res/UserGuide1.png';
 import UserGuide2 from '../../res/UserGuide2.png';
 import ConnectionDiag from '../../res/ConnectionDiag.png';
 
+const demoVideoUrl = "https://www.youtube.com/embed/aMXpVZAsE_M";
+
+
 const VisualPlasma = props => (
 	<div>
 		<Media>
@@ -25,7 +29,10 @@ const VisualPlasma = props => (
 						<Card.Text className="general-text">							
 							This app generates visuals triggered by MIDI signals.
 							In order to use this app, it is required that you make yorself familier with basic concepts of MIDI.								
-						</Card.Text>						
+						</Card.Text>
+						<div >
+							<ResponsiveEmbed src={demoVideoUrl} allowfullscreen />
+						</div>
 					</Card.Body>
 					<Card.Body>
 						<Card bg="dark" text="light">

@@ -17,11 +17,26 @@
     font-size: 0.90rem !important;
 }
 
-.card-img-bottom{
-    width: 85% !important;
-    padding: 0.5rem; 
+
+@media screen and (max-width: 600px) {
+    .card-img-bottom{
+        width: 89% !important;
+        padding: 0.5rem; 
+    }
+
+    .card-img-top{
+        padding-top: 0.5rem;
+    }
 }
 
-.card-img-top{
-  padding-top: 0.5rem;
+@media screen and (min-width: 600px) {
+    .card-img-bottom{
+        width: 25rem !important;
+        padding: 0.5rem; 
+    }
+
+    .card-img-top{
+        padding-top: 0.5rem;
+        width: 50rem !important;
+    }
 }
