@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/VisualPlasmaInfo/precache-manifest.0e7ecf29e9925636aa92245f2c564933.js"
+  "/VisualPlasmaInfo/precache-manifest.589886b6da8915e8a0bedad75db79c33.js"
 );
 
 self.addEventListener('message', (event) => {
